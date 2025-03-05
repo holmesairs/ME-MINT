@@ -25,7 +25,7 @@ cd MagicEden-Mint
 2. Install dependencies:
 
 ```bash
-npm install
+npm install inquirer chalk ethers
 ```
 
 3. Configure your wallet:
@@ -37,7 +37,6 @@ npm install
    MAX_CONCURRENT_MINTS=10
    DEFAULT_GAS_LIMIT_MIN=180000
    DEFAULT_GAS_LIMIT_MAX=280000
-
    PRIVATEKEY=0xYourPrivateKeyHere
    ```
 
@@ -65,12 +64,6 @@ Follow the interactive prompts to:
 
 ### Example
 
-```
-┌─────────────────────────────────┐
-│         MONAD NFT MINTER        │
-│    Mint NFTs on Monad Chain     │
-│     https://t.me/infomindao     │
-└─────────────────────────────────┘
 
 ? Minting Mode: Instant Mint
 ? NFT Contract Address or Magic Eden Link: https://magiceden.io/mint-terminal/monad-testnet/0x000000000000000
@@ -111,12 +104,6 @@ Follow the interactive prompts to:
 ## Supported Networks
 
 Currently supports Monad Testnet.
-
-## Community
-
-Join our Telegram community for updates, support, and discussions:
-
-- [Telegram](https://t.me/infomindao)
 
 ## Contributing
 
