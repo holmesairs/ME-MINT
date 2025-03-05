@@ -79,36 +79,3 @@ Follow the interactive prompts to:
 + Transaction confirmed in Block [6290517]
 + Minting process completed!
 ```
-
-## Project Structure
-
-```
-|— api/
-|   |— core/           # Core components for network requests
-|   |   |— blockchain.js # Blockchain interaction utilities
-|   |   |— http.js     # HTTP client for API requests
-|   |— services/       # API services like wallet, collection, etc.
-|   |   |— magiceden.js # Magic Eden API integration
-|   |   |— nft.js      # NFT contract interactions
-|   |— utils/          # Helper utilities for API
-|   |   |— helpers.js  # General helper functions
-|   |— index.js        # API entry point
-|— config/
-|   |— ABI.js          # Contract ABI definitions
-|   |— chain.js        # Blockchain configuration
-|   |— env.chain.js    # Blockchain environment variables
-|— .env                # API & wallet configuration
-|— main.js             # Application entry point
-```
-
-## Supported Networks
-
-Currently supports Monad Testnet.
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
