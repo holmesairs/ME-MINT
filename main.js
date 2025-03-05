@@ -27,12 +27,12 @@ const displayBanner = () => {
   );
   console.log(
     chalk.blue("│") +
-      chalk.gray("    KEBELET KAYA DI MONAD     ") +
+      chalk.gray("    Mint NFTs on Monad Chain     ") +
       chalk.blue("│")
   );
   console.log(
     chalk.blue("│") +
-      chalk.cyan("     https://t.me/AirdropHoka     ") +
+      chalk.cyan("     https://t.me/AirdropHoka    ") +
       chalk.blue("│")
   );
   console.log(chalk.blue("└─────────────────────────────────┘\n"));
