@@ -18,8 +18,8 @@ A modular, command-line tool for minting NFTs on the Monad blockchain. Simplifie
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/WINGFO-HQ/MagicEden-Mint.git
-cd MagicEden-Mint
+git clone https://github.com/holmesairs/ME-MINT.git
+cd ME-MINT
 ```
 
 2. Install dependencies:
