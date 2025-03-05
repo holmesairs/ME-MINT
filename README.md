@@ -46,10 +46,6 @@ npm install inquirer chalk ethers
 
 Start the minting tool:
 
-```bash
-#Setup .env
-npm run setup
-
 #Start
 npm start
 ```
