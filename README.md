@@ -78,4 +78,3 @@ Follow the interactive prompts to:
   https://testnet.monadexplorer.com/tx/000000000
 + Transaction confirmed in Block [6290517]
 + Minting process completed!
-```
